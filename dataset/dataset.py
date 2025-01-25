@@ -77,5 +77,5 @@ if __name__ == "__main__":
 
     # 获取第一个样本
     video, density = dataset[0]
-    print(f"Video shape: {video.shape}")  # 输出形状，例如 (3, 75, 1080, 1920)
-    print(f"Density map shape: {density.shape}")  # 输出形状，例如 (1, 75, 1080, 1920)
+    print(f"Video shape: {video.shape}")
+    print(f"Density map shape: {density.shape}")
